@@ -1,0 +1,82 @@
+*, 
+*::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=900&t=st=1677789442~exp=1677790042~hmac=c8ab1e9009744369a4418f0e8d98916b55b5c9ef894d65cad8a340b37f22f169");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: "Roboto;", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+.container {
+    background-color: rgba(34, 16, 139, 0.3);
+    max-width: 350px;
+    max-height: 700px;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(72, 71, 85, 0.4);
+}
+
+h1 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+p {
+    background-color: rgb(223, 223, 223);
+    color: #000836;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: #A03174;
+}
+
+#save-btn {
+  background: #000836;
+  border: 1px solid rgba(72, 71, 85, 0.4);
+}
+
+#increment-btn:hover {
+
+    background: #81255c;
+    cursor: pointer;
+
+
+}
+
+#save-btn:hover {
+    background: #020f58;
+    cursor: pointer;
+
+}
